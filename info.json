@@ -1,0 +1,14 @@
+{
+  "name": "trainConstructionSiteManager",
+  "version": "1.0.0",
+  "factorio_version": "2.1",
+  "title": "Train Construction Site Manager",
+  "author": "Marcel171297",
+  "homepage": "https://github.com/Marcel1853/trainConstructionSiteFork",
+  "description": "Zentrales Management-Dashboard für Train Construction Site. Ermöglicht die Steuerung und Übersicht aller Depots, Bau-Züge und Werkstätten via Shortcut Bar.",
+  "dependencies": [
+    "base >= 2.1",
+    "trainConstructionSiteFork >= 0.5.6",
+    "FactoryLib >= 0.2.2"
+  ]
+}

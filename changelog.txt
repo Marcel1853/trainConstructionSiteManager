@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 28. 06. 2026
+  Features:
+    - Initial release of Train Construction Site Manager for Factorio 2.1.
+    - Central dashboard providing full visibility over all TCS Depots, Builders, and Assemblers.
+    - Shortcut bar tool and custom hotkey (ALT + T) toggle support.
+    - Draggable main window built with the FactoryLib GUI layout engine.
+    - Interactive table buttons: Jump to map location and highlight entity on surface.
+    - Full German and English localization.
