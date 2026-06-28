@@ -1,10 +1,61 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.0
+Version: 0.1.0
 Date: 28. 06. 2026
+  Major Features:
+    - Initial alpha release of Train Construction Site Manager for Factorio 2.1 / Space Age.
+    - Central management dashboard for trainConstructionSiteFork.
   Features:
-    - Initial release of Train Construction Site Manager for Factorio 2.1.
-    - Central dashboard providing full visibility over all TCS Depots, Builders, and Assemblers.
-    - Shortcut bar tool and custom hotkey (ALT + T) toggle support.
-    - Draggable main window built with the FactoryLib GUI layout engine.
-    - Interactive table buttons: Jump to map location and highlight entity on surface.
-    - Full German and English localization.
+    - Full overview of all TCS entities across all forces and surfaces.
+    - Depots tab with Name, Location, Status, Trains built/requested.
+    - Builders tab with active build status.
+    - Assemblers tab with train assembly plants overview.
+    - Shortcut bar integration with TCS Manager shortcut icon.
+    - Custom hotkey ALT + T to toggle manager.
+    - Draggable main window built with FactoryLib GUI layout engine >= 0.2.2.
+    - Interactive table action buttons: Show on map.
+    - Interactive table action buttons: Ping / highlight entity on surface.
+    - Optional coordinate columns X / Y toggleable via header button.
+    - Mod setting: tcsManager-show-coordinates to show coordinates by default.
+    - Multi-surface support: Nauvis, Space Age planets, space platforms.
+    - Multi-force and multiplayer compatible.
+  Minor Features:
+    - Tab-based UI: Depots / Builders / Assemblers.
+    - Status display: Bereit / Aktiv / Wartend / Leerlauf.
+    - Status display EN: Ready / Active / Waiting / Idle.
+    - Empty-state message: Keine Depots gefunden. Baue zuerst ein Zug-Depot!
+    - Player-specific GUI state handling.
+    - Safe open/close/toggle handling prevents duplicate windows.
+  Changes:
+    - Initial public repository structure.
+    - Added src/gui/manager-controller.lua.
+    - Added src/gui/manager-layout.lua.
+    - Added locale/de and locale/en complete.
+    - Added graphics/icons folder.
+  Translation:
+    - Full German localization.
+    - Full English localization.
+  Compatibility:
+    - Requires base >= 2.1.
+    - Requires trainConstructionSiteFork >= 0.5.6.
+    - Requires FactoryLib >= 0.2.2.
+    - Multiplayer compatible.
+    - Existing saves: can be added and removed at any time.
+    - Space Age multi-surface support.
+  Gui:
+    - FactoryLib based draggable main window.
+    - Header controls: Coordinates toggle, Refresh, Close.
+    - Compact right-aligned header buttons (WIP layout).
+    - Table columns: Name, Location, Status, Trains, Actions.
+  Info:
+    - ALPHA BUILD – Work in Progress – NOT FINISHED.
+    - Suggestions, ideas and bug reports very welcome.
+    - GitHub: https://github.com/Marcel1853/trainConstructionSiteManager
+    - Author: Marcel171297
+    - Known issue: Train status / time display is not always correct yet.
+    - Known issue: UI button layout Coords / Refresh / Close is being reworked.
+    - Known issue: No sorting / filtering / search in tables yet.
+    - Known issue: Performance drops with more than 50 depots listed.
+    - Known issue: Tooltips partially missing.
+    - Known issue: Space Age surface icons not final.
+  Bugfixes:
+    - N/A - initial release.
