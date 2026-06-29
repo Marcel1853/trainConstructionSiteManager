@@ -1,12 +1,12 @@
 # Train Construction Site Manager
 
 [![Factorio](https://img.shields.io/badge/Factorio-2.1-green)](https://factorio.com)
-[![Version](https://img.shields.io/badge/version- 0.1.0--alpha-orange)]()
+[![Version](https://img.shields.io/badge/version-0.1.0--alpha-orange)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
 > **⚠️ WIP – WORK IN PROGRESS / NOCH NICHT FERTIG!**
 >
-> Diese Mod ist in aktiver Entwicklung (Alpha  0.1.0, 28.06.2026).
+> Diese Mod ist in aktiver Entwicklung (Alpha 0.1.0, 28.06.2026).
 > Es gibt noch Bugs, unfertiges UI und fehlende Features.
 > **Vorschläge, Ideen und Bugreports nehme ich SEHR gerne an!**
 
@@ -56,7 +56,7 @@ Der eigentliche Zugbau läuft weiter 100% über **TrainConstructionSite / trainC
 
 1. **trainConstructionSiteFork >= 0.5.6** installieren
 2. **FactoryLib >= 0.2.2** installieren
-3. **trainConstructionSiteManager  0.1.0** in den mods-Ordner
+3. **trainConstructionSiteManager 0.1.0** in den mods-Ordner
 4. Spiel starten
 
 Öffnen: Shortcut-Bar Button **„TCS Manager öffnen“** oder **ALT + T**
@@ -68,7 +68,7 @@ Der eigentliche Zugbau läuft weiter 100% über **TrainConstructionSite / trainC
 ```
 {
   "name": "trainConstructionSiteManager",
-  "version": " 0.1.0",
+  "version": "0.1.0",
   "factorio_version": "2.1",
   "author": "Marcel171297",
   "dependencies": [
@@ -109,7 +109,7 @@ Das ist genau der Stand aus dem `first commit` – bewusst als Alpha markiert.
 Am liebsten:
 - **GitHub Issues:** https://github.com/Marcel1853/trainConstructionSiteManager/issues
 - Factorio Mod Portal Discussion
-
+- Discord / Forum PN an Marcel171297
 
 Gesucht:
 - Welche Spalten / Infos fehlen euch im Manager?
@@ -162,7 +162,7 @@ One window to control all your TCS depots, builders and assemblers across all su
 - Tabs: Depots / Builders / Assemblers
 - Full German and English localization
 
-**Status:  0.1.0-alpha – WIP – NOT FINISHED YET**
+**Status: 0.1.0-alpha – WIP – NOT FINISHED YET**
 Bugs expected. Train status/time display is still inaccurate. UI buttons are being reworked.
 
 **Suggestions very welcome!**
@@ -172,4 +172,4 @@ Dependencies: `base >= 2.1`, `trainConstructionSiteFork >= 0.5.6`, `FactoryLib >
 Author: Marcel171297
 
 ---
-*Version  0.1.0-alpha – 28.06.2026 – Work in Progress*
+*Version 0.1.0-alpha – 28.06.2026 – Work in Progress*

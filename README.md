@@ -1,12 +1,12 @@
 # Train Construction Site Manager
 
 [![Factorio](https://img.shields.io/badge/Factorio-2.1-green)](https://factorio.com)
-[![Version](https://img.shields.io/badge/version- 0.1.0--alpha-orange)]()
+[![Version](https://img.shields.io/badge/version-0.1.0--alpha-orange)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
 > **⚠️ WIP – WORK IN PROGRESS – NOT FINISHED YET!**
 >
-> This mod is in active alpha development ( 0.1.0, June 28, 2026).
+> This mod is in active alpha development (0.1.0, June 28, 2026).
 > Bugs, unfinished UI and missing features are expected.
 > **Suggestions, ideas and bug reports are VERY welcome!**
 
@@ -54,9 +54,9 @@ Train building itself is still 100% handled by **TrainConstructionSite / trainCo
 
 ## Installation
 
-1. Install **trainConstructionSiteFork >= 0.5.6**
-2. Install **FactoryLib >= 0.2.2**
-3. Add **trainConstructionSiteManager  0.1.0** to your mods folder
+1. Install **trainConstructionSiteFork**
+2. Install **FactoryLib**
+3. Add **trainConstructionSiteManager** to your mods folder
 4. Start the game
 
 Open with: Shortcut bar button **“Open TCS Manager”** or **ALT + T**
@@ -140,4 +140,4 @@ Thanks to all TCS testers!
 MIT
 
 ---
-*Version  0.1.0-alpha – June 28, 2026 – Work in Progress*
+*Version 0.1.0-alpha – June 28, 2026 – Work in Progress*
